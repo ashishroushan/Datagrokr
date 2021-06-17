@@ -1,0 +1,78 @@
+body {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    margin-right: 30px;
+    margin-top: 15px;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: 0;
+    border-bottom: solid 2px #041368;
+    padding: 15px 60px 15px 0px;
+    font-size: 18px;
+    color: #093077;
+    background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-128.png") 100%/8% no-repeat;
+  }
+  
+  /* input {
+    background: none;
+    border: solid 2px #21a1e1;
+    color: #21a1e1;
+    padding: 15px 40px;
+    font-size: 18px;
+  }
+  input:focus, input:active {
+    outline: none;
+  }
+  input[type=text], input[type=email] {
+    border: none;
+    border-bottom: solid 2px #21a1e1;
+  }
+  input[type=submit] {
+    cursor: pointer;
+  }
+  input[type=submit]:active {
+    color: white;
+    background: #21a1e1;
+  }
+   */
+  .input-group {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  .input-group input {
+    padding: 15px 0px;
+  }
+  .input-group label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translatey(-50%);
+    -moz-transform: translatey(-50%);
+    -ms-transform: translatey(-50%);
+    -o-transform: translatey(-50%);
+    transform: translatey(-50%);
+    font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-style: italic;
+    font-size: 18px;
+    pointer-events: none;
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+  }
+  .input-group input:focus + label,
+  .input-group input.has-value + label,
+  .input-group select:focus + label,
+  .input-group select.has-value + label {
+    top: -10px;
+    font-size: 12px;
+  }
+  .Storage {
+      margin-right: 15px;
+      display: inline-block;
+      margin-top: 40px;
+  }
